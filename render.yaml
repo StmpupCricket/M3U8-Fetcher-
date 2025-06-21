@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: m3u8-puppeteer-api
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
